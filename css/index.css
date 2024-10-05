@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #1e1e1e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007BFF;
+}
+
+.dynamic {
+    font-size: 2em;
+    color: #007BFF;
+    animation: glowing 1.5s infinite;
+}
+
+@keyframes glowing {
+    0% { color: #007BFF; text-shadow: 0 0 5px #007BFF; }
+    50% { color: #fff; text-shadow: 0 0 20px #007BFF, 0 0 30px #007BFF; }
+    100% { color: #007BFF; text-shadow: 0 0 5px #007BFF; }
+}
+
+.contacto, .hobbies, .redes, .video {
+    margin: 20px 0;
+}
+
+.contacto p, .redes ul {
+    text-align: center;
+}
+
+.redes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.redes ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.redes ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.redes ul li a:hover {
+    color: #fff;
+}
+
+.video iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+    color: #007BFF;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #1e1e1e;
+    margin: 5px 0;
+    padding: 10px;
+    border: #333 1px solid;
+    color: #e0e0e0;
+}
